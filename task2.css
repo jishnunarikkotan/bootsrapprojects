@@ -1,0 +1,283 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+  }
+  
+  #main{
+    position:relative;
+    width:100%;
+    height:100vh;
+  }
+  
+  .bgImage{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 700px;
+  }
+  
+  #navContainer{
+    display: flex;
+    height: 90px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #navImage{
+    width:60px;
+    border-radius: 100px;
+    margin-left: 50px;
+    margin-top: 10px;
+    
+  }
+  
+  .listContainer{
+    display: flex;
+    justify-content:space-between;
+    gap: 15px;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .listItems{
+    display: inline;
+    list-style: none;
+    font-size: 17px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .listIcons{
+    margin-top: 8px;
+    font-size: 5px;
+    list-style: none;
+    color: white;
+  }
+  
+  .special{
+    size: 5px;
+    font-size: 5px;
+  }
+  .item{
+    color: rgb(8, 211, 230);
+    font-size: 2rem;
+    margin-left: 20px;
+  }
+  
+  .itemss{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: medium;
+    margin-left: 10px;
+  }
+  
+  .searchBar{
+    width: 100%;
+    padding: 6.5px;
+    border: none;
+    outline: none;
+  }
+  
+  .searchContainer{
+    display: flex;
+    width: 300px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .searchIcon{
+    background-color: #fbc92f; 
+    border: none;
+    padding: 6.5px;
+    cursor: pointer;
+  }
+  
+  .cartContainer{
+    margin-right: 50px;
+    position: relative;
+  }
+  
+  .cart{
+    color:white;
+    font-size: 17px;
+    margin-right: 10px;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  #cartIcon{
+    color: white;
+    margin-right: 5px;
+    font-size: 20px;
+  }
+  
+  .cartvalue{
+    background-color: #fbc92f;
+    padding: 2px 4px;
+    border-radius: 25px;
+    font-size: 10px;
+    position: absolute;
+    top:-6px;
+    right: 0px;
+    
+  }
+  
+  .heading{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 150px;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  
+  .mainHeading{
+    color: white;
+    margin-bottom: 20px;
+    
+     font-size: 60px;
+    font-weight: 600;
+     margin-left: 10px;
+     margin-top: 120px;
+     font-family: "Poppins", sans-serif;
+  }
+  
+  .headingPara{
+    color: white;
+    font-size: 17px;
+    border: 10px;
+  }
+  
+  .bottomHalf{
+    background-color: rgb(227, 227, 219);
+    height: 550px;
+    position: relative;
+  }
+  
+  .centering{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .mainContent{
+    background-color: rgb(240, 240, 255);
+    display: grid;
+    grid-template-columns: repeat(3,160px);
+    grid-template-rows: repeat(3,150px);
+    row-gap: 30px;
+    column-gap: 30px;
+    width: 590px;
+    height: 570px;
+    padding-left: 20px;
+    padding-top: 20px;
+    position: absolute;
+    top:-20px;
+  }
+  
+  .mainImg{
+    width:100%;
+    height: 100%;
+    border: none;
+  }
+  
+  .imageFood{
+    width: 150px;
+    height: 150px;
+  }
+  
+  .foot{
+    background-color: black;
+    color: rgb(198, 194, 194);
+    display: flex;
+    flex-direction: row;
+    gap:13px;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    height: 265px;
+    margin-bottom: 0px;
+    
+  }
+  
+  .container{
+    width: 350px;
+    font-size: 13px;
+    font-family: "Roboto", system-ui;
+    margin: 0px 20px;
+  }
+  
+  .container1{
+    padding: 10px;
+  }
+  
+  .infoContainer{
+    margin: 10px 0px;
+  }
+  
+  .details{
+    text-align: justify;
+    margin-top: 10px;
+    line-height: 1.3rem;
+  }
+  
+  .infoIcon{
+    margin: 8px 0px;
+  }
+  
+  .iconDetails{
+    margin-left: 7px;
+  }
+  
+  .iconDetails1{
+    margin-left: 11px;
+  }
+  
+  .container2,.container3,.Container4{
+    padding: 10px;
+  }
+  
+  .footHeading{
+    font-family: "Josefin Sans", system-ui;
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+  }
+  
+  .footMenu{
+    font-family: "Nunito", system-ui;
+    margin: 10px 0px;
+  }
+  
+  hr{
+    opacity: 0.3; 
+  }
+  
+  .footerGrid{
+    display: grid;
+    grid-template-columns: repeat(4,70px);
+    height: 90px;
+    row-gap: 10px;
+    column-gap: 10px;
+    margin: 10px;
+  }
+  
+  .footerImg{
+    width:100%;
+    height: 100%;
+  }
+  
+  .lastp{
+    margin: 7px 0px;
+  }
+  .service{
+    color: white;
+    margin-left: 30px;
+
+  }
+  .work{
+    color: lightblue;
+    margin-left: 30px;
+  }
